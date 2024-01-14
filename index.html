@@ -6,37 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🍒Very Cherry</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
 </head>
 <body>
+   <div class="background">
+      <div class="toggle-body">
+        <div class="toggle-btn"></div>
+      </div>
     <nav class="nav">
         <a class="item one" href="#"><b>Very Cherry™</b></a>
-        <a class="item" href="#"><b>About</b></a>
-        <a class="item" href="#"><b>Go Green</b></a>
-        <a class="item" href="#"><b>Meet the Team</b></a>
-        <a class="item" href="#"><b>Happy Clients</b></a>
+        <a class="item" href="#about"><b>About</b></a>
+        <a class="item" href="#products"><b>Our Products</b></a>
+        <a class="item" href="#team"><b>Meet the Team</b></a>
+        <a class="item" href="#contact"><b>Contact us</b></a>
         </nav>
         <br>
         <div class="parent">
-    <img src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/logo-modified.png?v=1658859260119" alt="cherry" width="500px">
+    <img src="./assets/logo-cherry2.png" alt="cherry" id="logo" width="15%">
     <ul class="about">
-    <li class="par">Enjoy a memorable taste of organic products when you visit our unique cheerful farm.</li>
-    <li class="par">We grow up not only fruits and berries, but super foods for healthy life.</li>
-    <li class="par">Since 1990 taking care of rich land and producing natural goods for helping community to stay strong and happy.</li>
-    <li class="par">Our farmers adore idea about green lifestyle and will continue to make this world greener💚</li>
+    <li class="par" id="about">Enjoy a memorable taste of organic products when you visit our unique cheerful farm. We grow up not only fruits and berries, but super foods for healthy life. Since 1990 taking care of rich land and producing natural goods for helping community to stay strong and happy. Our farmers adore idea about green lifestyle and will continue to make this world greener💚</li>
     </ul>    
 </div>
 
 <div class="skills">
-<h3 class="heading">Our Products</h3>
+<h3 class="heading" id="products">Our Products</h3>
 </div>
 
 <div class="features">
    <div class="plan">
       <h3>Cherry (red)</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/cherry-red.jpeg?v=1658859222543" alt="Red" width="200px">
+      <img class="table" src="./assets/cherry .jpeg" alt="Red" width="270px" height="200px">
       <ul class="list" type="square">
          <li>Maintaince heart health</li>
-         <li>May offer cancer prevention</li>
+         <li>Cancer prevention</li>
          <li>Helps in weight loss</li>
       </ul>
       <p class="price"><del>20 $</del><ins>15 $</ins></p>
@@ -44,7 +50,7 @@
    </div>
    <div class="plan">
       <h3>Cherry (yellow)</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/cherry-yellow.jpeg?v=1658859232403" alt="Yellow" width="200px" height="270px">
+      <img class="table" src="./assets/cherry-yellow.jpg" alt="Yellow" width="270px" height="200px">
       <ul class="list" type="square">
          <li>Boost exercise recovery</li>
          <li>May improve sleep quality</li>
@@ -58,7 +64,7 @@
 <div class="features">
    <div class="plan">
       <h3>Peach</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/peach.jpeg?v=1658859287073" alt="Peach" width="200px">
+      <img class="table" src="./assets/peach.jpeg" alt="Peach" width="270px" height="200px">
       <ul class="list" type="square">
          <li>Protect against toxins</li>
          <li>Improve digestion</li>
@@ -69,7 +75,7 @@
    </div>
    <div class="plan">
       <h3>Strawberry</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/strawberries.jpeg?v=1658859301939" alt="Strawberry" width="200px">
+      <img class="table" src="./assets/strawberry.jpeg" alt="Strawberry" width="270px" height="200px">
       <ul class="list" type="square">
          <li>Regulate blood pressure</li>
          <li>Lower cholesterol</li>
@@ -83,7 +89,7 @@
 <div class="features">
    <div class="plan">
       <h3>Grapes</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/grapes.jpeg?v=1658859242529" alt="Grapes" width="200px" height="270px">
+      <img class="table" src="./assets/grapes.jpeg" alt="Grapes" width="270px" height="200px">
       <ul class="list" type="square">
          <li>Prevent anemia</li>
          <li>Ward off cancer</li>
@@ -94,10 +100,10 @@
    </div>
    <div class="plan">
       <h3>Plum</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/plum.jpeg?v=1658859329140" alt="Plum" width="200px" height="270px">
+      <img class="table" src="./assets/plum.jpeg" alt="Plum" width="270px" height="200px">
       <ul class="list" type="square">
          <li>Memory boosting</li>
-         <li>Maintains electrolyte balance</li>
+         <li>Maintains balance</li>
          <li>Improves blood circulation</li>
       </ul>
       <p class="price"><del>14 $</del><ins>10 $</ins></p>
@@ -105,23 +111,23 @@
    </div>
 </div>
 <video autoplay muted loop id="myVideo placeinline" width="100%">
-   <source src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/Green.mp4?v=1658859252153" type="video/mp4">
+   <source src="./assets/cherry.mp4" type="video/mp4">
 </video>
 
 <div class="skills">
-   <h3 class="heading">Meet The Team</h3>
+   <h3 class="heading" id="team">Meet The Team</h3>
    </div>
 
 <div class="features">
    <div class="plan">
       <h3>Svitlana</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/mamuchka.jpeg?v=1658859270053" alt="CEO" width="200px">
+      <img class="table" src="./assets/father.jpeg" alt="CEO" width="200px">
       <h4 class="list haha">CEO and Founder</h4>
       <a href="https://wa.me/97433450216"><button class="cta">Contact</button></a>
    </div>
    <div class="plan">
       <h3>Serhii</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/papuchka.jpeg?v=1658859276643" alt="agronomist" width="200px">
+      <img class="table" src="./assets/mom.jpeg" alt="agronomist" width="200px">
       <h4 class="list haha">Senior Agronomist</h4>
       <a href="https://wa.me/97433450216"><button class="cta">Contact</button></a>
    </div>
@@ -130,13 +136,13 @@
 <div class="features">
    <div class="plan">
       <h3>Andrei</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/andrei.jpeg?v=1658859176493" alt="Degustator" width="200px">
+      <img class="table" src="./assets/Zaharia.jpeg" alt="Degustator" width="200px" height="200px">
       <h4 class="list haha">Degustator</h4>
       <a href="https://wa.me/97433450216"><button class="cta">Contact</button></a>
    </div>
    <div class="plan">
       <h3>Yuliia</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/yuliia.jpeg?v=1658859317947" alt="Finance" width="200px" height="270px">
+      <img class="table" src="./assets/portrait-formal.jpeg" alt="Finance" width="200px" height="200px">
       <h4 class="list haha">Finance Manager</h4>
       <a href="https://wa.me/97433450216"><button class="cta">Contact</button></a>
 </div>
@@ -145,22 +151,23 @@
 <div class="features">
    <div class="plan">
       <h3>Dasha</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/cat.jpeg?v=1658859213596" alt="Mascot" width="200px">
+      <img class="table" src="./assets/dasha.jpeg" alt="Mascot" width="200px" height="350px">
       <h4 class="list haha">Lucky Charm</h4>
       <a href="https://wa.me/97433450216"><button class="cta">Donate</button></a>
    </div>
    <div class="plan">
-      <h3>Busilda</h3>
-      <img class="table" src="https://cdn.glitch.global/78000fd4-1fea-4da1-92c0-7c19d84ced79/busilda.jpeg?v=1658859199628" alt="Busilda" width="200px">
+      <h3>Stepan</h3>
+      <img class="table" src="./assets/stepa.jpeg" alt="Busilda" width="200px" height="350px">
       <h4 class="list haha">Lucky Charm</h4>
       <a href="https://wa.me/97433450216"><button class="cta">Donate</button></a>
    </div>
 </div>
-<div class="skills">
+<div class="skills" id="contact">
    <h3 class="heading">Visit Us</h3>
    </div>
    <div class="map-responsive">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.0490619381644!2d35.3397125150119!3d46.8230349497689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c2afd40f7eae83%3A0xe1c02a83c4c31bfa!2sLevanevs&#39;koho%20St%2C%2023%2C%20Melitopol&#39;%2C%20Zaporiz&#39;ka%20oblast%2C%20Ukraine%2C%2072300!5e0!3m2!1sen!2sqa!4v1658843697118!5m2!1sen!2sqa" width="600" height="450" style="border:0;" frameborder="0"style="border:0" allowfullscreen></iframe>
+   </div>
    </div>
 <script src="index.js"></script>   
 </body>
